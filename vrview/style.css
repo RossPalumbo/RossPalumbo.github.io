@@ -24,6 +24,9 @@ html, body {
   -moz-user-select: none;
   user-select: none;
 }
+
+a.blink { position: fixed; top: 10px; left: 10px; z-index: 999; padding: 1px; display: block; }
+
 .dialog.visible {
   display: flex;
 }
