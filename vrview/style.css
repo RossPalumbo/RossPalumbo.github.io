@@ -29,7 +29,7 @@ html, body {
   z-index: 1000;
   position: fixed;
   overflow: hidden;
-  right: 0;
+  left: 0;
   bottom: 0;
   width: 205px;
   height: 108px;
@@ -76,21 +76,6 @@ a, a:visited {
 
 #title.hidden {
   opacity: 0;
-}
-
-#watermark img {
-  position: fixed;
-  overflow: hidden;
-  left: 0;
-  bottom: 0;
-  opacity: 0.3;
-  width: 24px;
-  height: 24px;
-  padding: 12px;
-}
-#watermark img:hover {
-  opacity: 1;
-  -webkit-filter: drop-shadow(white 0 0 5px);
 }
 
 
