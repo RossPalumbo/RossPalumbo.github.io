@@ -28,15 +28,14 @@ html, body {
 #blink img {
   position: fixed;
   overflow: hidden;
-  left: 0;
-  bottom: 0;
-  opacity: 0.3;
-  width: 24px;
-  height: 24px;
-  padding: 12px;
+  right: 0;
+  top: 0;
+  width: 205px;
+  height: 108px;
+  padding: 0px;
 }
 #blink img:hover {
-  opacity: 1;
+
   -webkit-filter: drop-shadow(white 0 0 5px);
 }
 
