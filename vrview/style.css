@@ -25,7 +25,23 @@ html, body {
   user-select: none;
 }
 
-a.blink {  z-index: 1000; position: fixed; width: 205px; height: 108px; top: 10px; left: 10px; z-index: 999; padding: 1px; }
+a.blink {
+
+  position: fixed;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  opacity: 0.3;
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+}
+a.blink img:hover {
+  opacity: 1;
+  -webkit-filter: drop-shadow(white 0 0 5px);
+}
+
+
 
 .dialog.visible {
   display: flex;
