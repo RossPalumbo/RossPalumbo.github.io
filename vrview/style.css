@@ -27,6 +27,7 @@ html, body {
 
 a.blink {
 
+  z-index: 1000;
   position: fixed;
   overflow: hidden;
   right: 0;
