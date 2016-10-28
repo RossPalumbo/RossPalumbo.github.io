@@ -38,7 +38,7 @@ html, body {
 #blink img:hover {
 }
 
-pre { z-index: 999; position: fixed; width: auto; height: auto; display: inline; top: 12px; left: 10px; color: #ff0000; opacity: 0.3; }
+pre { z-index: 999; position: fixed; width: auto; height: auto; display: inline; top: 12px; left: 12px; color: #ff0000; opacity: 0.3; }
 
 .dialog.visible {
   display: flex;
