@@ -38,19 +38,6 @@ html, body {
 #blink img:hover {
 }
 
-#hud img {
-  z-index: 999;
-  position: fixed;
-  overflow: hidden;
-  right: 0;
-  bottom: 0;
-  width: 124px;
-  height: 124px;
-  padding: 12px;
-}
-#hud img:hover {
-}
-
 pre { z-index: 999; position: fixed; width: 150px; height: auto; display: inline; top: 12px; left: 12px; color: #ff0000; opacity: 0.3; }
 
 .dialog.visible {
