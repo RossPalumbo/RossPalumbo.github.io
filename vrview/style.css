@@ -39,14 +39,14 @@ html, body {
 }
 
 #hud img {
-  z-index: 1000;
+  z-index: 2;
   position: fixed;
   overflow: hidden;
   right: 0;
-  top: 0;
+  bottom: 0;
   width: 50px;
   height: 50px;
-  padding: 12px;
+  padding: 2px;
 }
 #hud img:hover {
 }
