@@ -43,9 +43,9 @@ html, body {
   position: fixed;
   overflow: hidden;
   right: 0;
-  top: 0;
-  width: 320px;
-  height: 320px;
+  bottom: 0;
+  width: 124px;
+  height: 124px;
   padding: 12px;
 }
 #hud img:hover {
