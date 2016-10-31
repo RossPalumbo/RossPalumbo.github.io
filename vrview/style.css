@@ -48,7 +48,7 @@ html, body {
   height: 320px;
   padding: 12px;
 }
-#blink img:hover {
+#hud img:hover {
 }
 
 pre { z-index: 999; position: fixed; width: 150px; height: auto; display: inline; top: 12px; left: 12px; color: #ff0000; opacity: 0.3; }
