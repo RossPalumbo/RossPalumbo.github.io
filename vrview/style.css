@@ -39,7 +39,7 @@ html, body {
 }
 
 #hud img {
-  z-index: 2;
+  z-index: 1;
   position: fixed;
   overflow: hidden;
   right: 0;
