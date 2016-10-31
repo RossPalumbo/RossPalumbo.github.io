@@ -43,7 +43,7 @@ html, body {
   position: fixed;
   overflow: hidden;
   right: 0;
-  bottom: 0;
+  top: 0;
   width: 320px;
   height: 320px;
   padding: 12px;
